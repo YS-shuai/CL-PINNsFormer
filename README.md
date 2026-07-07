@@ -1,13 +1,13 @@
 # CL-PINNsFormer
 
-The official repo for PINNMamba. We highlight the advantages of using the State-Space Model in solving the physics partial differential equations.
+CL-PINNsFormer: A lightweight pure-decoder framework that breaks the low-pass filtering bottleneck in PINNs, achieving O(N) complexity and superior high-frequency PDE solutions.
 
 ## Get Started
 
 ```shell
-python reaction_pinnmamba.py --model PINNMamba --device 'cuda:0'
-python wave_pinnmamba.py --model PINNMamba --device 'cuda:0'
-python convection_pinnmamba.py --model PINNMamba --device 'cuda:0'
+python reaction_CL_PINNsFormer.py --model CL_PINNsFormer --device 'cuda:0'
+python wave__CL_PINNsFormer.py --model CL_PINNsFormer --device 'cuda:0'
+python convection__CL_PINNsFormer.py --model CL_PINNsFormer --device 'cuda:0'
 ```
 
 
@@ -17,7 +17,7 @@ We appreciate the following GitHub repos a lot for their valuable code base:
 
 https://github.com/AdityaLab/pinnsformer
 
-https://github.com/thuml/RoPINN
+https://github.com/miniHuiHui/PINNMamba
 
 ```
 @article{xu2025sub,
