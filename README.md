@@ -1,11 +1,6 @@
 # CL-PINNsFormer
 
-
-# PINNMamba
-
 The official repo for PINNMamba. We highlight the advantages of using the State-Space Model in solving the physics partial differential equations.
-
-[News]: The PINNMamba paper is accepted by ICML 2025. 
 
 ## Get Started
 
